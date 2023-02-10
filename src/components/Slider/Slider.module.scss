@@ -1,0 +1,15 @@
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+    background-color: #a29b9b;
+    max-width: 100%;
+    overflow: hidden;
+    &__carousel {
+        transition: all .3s;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+}
